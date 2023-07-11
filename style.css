@@ -1,0 +1,53 @@
+.header .list-bar ul li {
+    list-style: none;
+}
+.header .list-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+.header .list-bar ul li a:hover{
+    color: #26d12d;
+}
+.header .list-bar ul{
+    display: flex;
+}
+.header .list-bar ul li{
+    margin: 15px;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.header .searching{
+    display: flex;
+}
+.search{
+    margin: 30px;
+}
+.search input{
+    padding: 10px 20px;
+}
+.search button{
+    padding: 10px 10px;
+}
+.contentimage{
+    margin: 0 20px;
+}
+.contentimage a img{
+    width: 80%;
+}
+.content{
+    width: 80%;
+    text-align: center;
+
+}
+.content h1{
+    font-size: 20px;
+}
+#products{
+    display: flex;
+    justify-content: space-between;
+}
